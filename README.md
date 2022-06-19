@@ -9,7 +9,7 @@ And for database Django provide sqlite3.
 
 
 The step:
-1. Make project use command **django-admin startproject <name_project> **.
+1. Make project use command **django-admin startproject <name_project>**.
 2. Open file settings.py in your project, scroll down and you will find INSTALLED_APPS. In there Django has provide template apps for admin, auth and etc.
 4. Run project server and you will find message about unapplied migration(s). 
 5. For migrations, use command **python manage.py migrate**
@@ -22,4 +22,4 @@ The step:
 13. Want change url from /admin/ to else name?
 14. Open file urls.py in project, in urlpattern change path /admin/ to name you want, example /zuri-admin/
 15. Run your server again and use the changed url.
-16. VOILAA!! 
+16. VOILAA!! Finishhh
