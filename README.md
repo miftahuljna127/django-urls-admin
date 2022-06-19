@@ -14,9 +14,9 @@ The step:
 1. Make project use command **django-admin startproject <name_project>**.
 2. Open file settings.py in your project, scroll down and you will find INSTALLED_APPS. In there Django has provide template apps for admin, auth and etc.
 4. Run project server and you will find message about unapplied migration(s). 
-5. For migrations, use command **python manage.py migrate**
-6. Make account for admin use command **python manage.py createsuperuser**
-7. You will be asked to fill in username, email, and password.
+5. For migrations, use command **python manage.py migrate** . Then all migration will be done.
+6. Create account for admin use command **python manage.py createsuperuser**
+8. You will be asked to fill in username, email, and password.
 9. After that run server use command **python manage.py runserver**
 10. Open urls port http://127.0.0.1:8000/ and add /admin/ in end url
 11. Django will show Django admin. Enter the username, and password you add before.
