@@ -1,2 +1,2 @@
 # Django Url Admin Dashboard
-Make admin user and migrations
+## How to make and settings Admin in Django 
