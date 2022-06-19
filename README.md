@@ -8,6 +8,8 @@ So to apply that you just need write in command **python manage.py migrate**
 And for database Django provide sqlite3.
 
 
+
+
 The step:
 1. Make project use command **django-admin startproject <name_project>**.
 2. Open file settings.py in your project, scroll down and you will find INSTALLED_APPS. In there Django has provide template apps for admin, auth and etc.
