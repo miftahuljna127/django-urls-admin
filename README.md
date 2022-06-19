@@ -11,7 +11,7 @@ And for database Django provide sqlite3.
 
 
 The step:
-- Make project use command **django-admin startproject <name_project>**.
+- Make project use command **django-admin startproject name_project**.
 - Open file settings.py in your project, scroll down and you will find INSTALLED_APPS. In there Django has provide template apps for admin, auth and etc.
 - Run project server and you will find message about unapplied migration(s). 
 - For migrations, use command **python manage.py migrate** . Then all migration will be done.
